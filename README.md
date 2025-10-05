@@ -1,6 +1,6 @@
 # ProgAplikacjiWWW
 
-**Autor:**/
+**Autor:**
 *Wiktor Krasiński*
 
 
