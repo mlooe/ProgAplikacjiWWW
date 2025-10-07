@@ -1,7 +1,7 @@
 # ProgAplikacjiWWW
 
 **Autor:**
-*Wiktor Krasiński*
+*Wiktor Krasiński ISI gr. 2*
 
 
 > [!IMPORTANT]
