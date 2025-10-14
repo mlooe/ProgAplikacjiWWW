@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projekt 1. Strona na temat największych budynków świata">
+    <meta name="author" content="Wiktor Krasiński">
+    <meta name="keywords" content="HTML5, CSS3, JavaScript">
+    <title>Największe budynki świata (kontakt)</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="images/icon.ico"> 
+    <script src="timedate.js"></script>
+    <script src="kolorujto.js"></script>
+</head>
+
+
+
+<body onload="startclock()">
+    <header>
+        <div class="time">
+            <div id="zegarek"></div>
+            <div id="data"></div>
+        </div>
+        <h1><b>Kontakt i informacje</b></h1>
+    </header>
+
+    <nav class="main-nav">
+        <ul>
+            <li><a href="index.html">Strona główna</a></li>
+            <li><a href="buildings.html">Opisy budynków</a></li>
+            <li><a href="rankings.html">Rankingi</a></li>
+            <li><a href="gallery.html">Galeria</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+            <li class="cog"><img src="images/cog.png" alt="Ustawienia"/></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="contact">
+        <h2>Kontakt z nami</h2>
+        <p>Masz jakieś pytania? Napisz do nas używając formularza poniżej!</p>
+
+        <form>
+            <label>Imię: <br><input type="text" name="name"></label><br>
+            <label>E-mail: <br><input type="email" name="email"></label><br>
+            <label>Wiadomość: <br><textarea name="message"></textarea></label><br>
+            <button type="submit">Wyślij wiadomość</button>
+        </form>
+
+
+    </section>
+    </main>
+
+
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="gallery.html">Galeria zdjęć</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
+        <p>© 2025 - Najwyższe budynki świata</p>
+        <FORM METHOD="POST" NAME="background">
+            <INPUT TYPE="button" VALUE="żółty" ONCLICK="changeBackground('#FFF000')"> 
+            <INPUT TYPE="button" VALUE="czarny" ONCLICK="changeBackground('#000000')">
+            <INPUT TYPE="button" VALUE="biały" ONCLICK="changeBackground('#FFFFFF')">
+            <INPUT TYPE="button" VALUE="zielony" ONCLICK="changeBackground('#00FF00')">
+            <INPUT TYPE="button" VALUE="niebieski" ONCLICK="changeBackground('#0000FF')">
+            <INPUT TYPE="button" VALUE="pomarańczowy" ONCLICK="changeBackground('#FF8000')"> 
+            <INPUT TYPE="button" VALUE="szary" ONCLICK="changeBackground('#c0c0c0')">
+            <INPUT TYPE="button" VALUE="czerwony" ONCLICK="changeBackground('#FF0000')"> 
+        </FORM>
+    </footer>
+    
+</body>
+</html>
