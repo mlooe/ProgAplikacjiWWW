@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projekt 1. Strona na temat największych budynków świata">
+    <meta name="author" content="Wiktor Krasiński">
+    <meta name="keywords" content="HTML5, CSS3, JavaScript">
+    <title>Największe budynki świata (galeria)</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="images/icon.ico"> 
+    <script src="timedate.js"></script>
+    <script src="kolorujto.js"></script>
+</head>
+
+<body onload="startclock()">
+    <header>
+        <div class="time">
+            <div id="zegarek"></div>
+            <div id="data"></div>
+        </div>
+        <h1><b>Galeria zdjęć</b></h1>
+    </header>
+
+    <nav class="main-nav">
+        <ul>
+            <li><a href="index.html">Strona główna</a></li>
+            <li><a href="buildings.html">Opisy budynków</a></li>
+            <li><a href="rankings.html">Rankingi</a></li>
+            <li><a href="gallery.html">Galeria</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+            <li><a href="jQuery.html">jQuery</a></li>
+            <li class="cog"><img src="images/cog.png" alt="Ustawienia"/></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="gallery">
+            <figure>
+                <img src="images/Burj_Khalifa.jpg">
+                <figcaption>Burj Khalifa</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/Burj_Khalifa_BottomView.jpg">
+                <figcaption>Burj Khalifa (widok z dołu)</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/Merdeka_118.jpg">
+                <figcaption>Merdeka 118</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/Shanghai_Tower.jpg">
+                <figcaption>Shangai Tower</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/The_Clock_Towers.JPG">
+                <figcaption>Abradż al-Bajt</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/Pingan_International_Finance_Center.jpg">
+                <figcaption>Ping An Finance Center</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/Lotte_World_Tower.jpg">
+                <figcaption>Lotte World Tower</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/">
+                <figcaption>WIP</figcaption>
+            </figure>
+
+
+
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="gallery.html">Galeria zdjęć</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
+        <p>© 2025 - Najwyższe budynki świata</p>
+        <FORM METHOD="POST" NAME="background">
+            <INPUT TYPE="button" VALUE="żółty" ONCLICK="changeBackground('#FFF000')"> 
+            <INPUT TYPE="button" VALUE="czarny" ONCLICK="changeBackground('#000000')">
+            <INPUT TYPE="button" VALUE="biały" ONCLICK="changeBackground('#FFFFFF')">
+            <INPUT TYPE="button" VALUE="zielony" ONCLICK="changeBackground('#00FF00')">
+            <INPUT TYPE="button" VALUE="niebieski" ONCLICK="changeBackground('#0000FF')">
+            <INPUT TYPE="button" VALUE="pomarańczowy" ONCLICK="changeBackground('#FF8000')"> 
+            <INPUT TYPE="button" VALUE="szary" ONCLICK="changeBackground('#c0c0c0')">
+            <INPUT TYPE="button" VALUE="czerwony" ONCLICK="changeBackground('#FF0000')"> 
+        </FORM>
+    </footer>
+
+
+
+
+</body>
+</html>
